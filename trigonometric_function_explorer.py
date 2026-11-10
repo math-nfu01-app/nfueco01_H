@@ -5,6 +5,13 @@ import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
 
+# =====================================================
+# フォント設定
+# =====================================================
+from matplotlib import font_manager
+font_manager.fontManager.addfont("ipaexg.ttf")
+plt.rcParams["font.family"] = "IPAexGothic"
+
 # ======================================
 # 画面設定
 # ======================================
